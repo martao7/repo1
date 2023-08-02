@@ -1,24 +1,28 @@
 * {
-    background-color: rgb(243, 226, 235);
+    background-color: rgb(190, 221, 241);
 }
+
 nav {
     border: 2px solid green;
     display: flex;
     justify-content: space-between;
-
+    padding: 10px;
 }
 
 .nav-left {
-    border: 6px solid rgb(29, 114, 20);
+    border: 6px solid rgb(203, 213, 63);
     display: flex;
     align-items: center; 
-    border-radius: 2em;
-    background-color: #faeca4;
+    border-radius: 1em;
+    background-color: #e8dfaf;
+    padding: 30px 20px 30px 20px; 
 }
 
 .nav-right {
     border: 8px solid green;
     /* width: 80%;  */
+    margin: 5px 15px;
+    
 }
 
 ul {
@@ -27,24 +31,36 @@ ul {
     display: flex;
     justify-content: space-between; 
     color: #e26a32;
+    padding: 20px;
 }
 
 li {
     border: 2px solid rgb(239, 210, 22);
     background-color: #faeca4;
-    padding: 2px 6px 2px 6px;
+    padding: 15px 4px 2px 4px; 
     text-align: center;
-    width: 200px;
+    width: 100px;
     height: 50px;
+   
+/* 
+    float: left;
+    width: 80%;
+    display: flex;
+    
+    padding: 10px; */
+    list-style: none;
+    font-family: sans-serif;
+    margin: 5px 15px;
 }
 
 header {
     border: 2px solid orange;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 300px 50px 400px;
 }
 
 #duck {
