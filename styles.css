@@ -1,3 +1,13 @@
+body {
+    border: 2px solid black;
+}
+
+h1, h2 {
+    font-size: medium;
+    font-family: sans-serif;
+    margin: 1em;
+}
+
 nav {
     border: 2px solid green;
 }
